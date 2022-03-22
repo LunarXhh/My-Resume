@@ -355,3 +355,16 @@ margin: -20px;
       width: 60%;
       background-color: #808080;
    }
+
+@media (min-width: 240px) { .menu{font-size:1rem; width: 50%;
+  }.item1{width: 100%; font-size:0.5rem; margin-left: 5%; } .container1{width: 100%; font-size:0.8rem; margin-left:5%  }}
+ @media (min-width: 480px) { .menu{font-size:1rem; width: 50%;
+  }.item1{width: 100%; font-size:0.7rem; margin-left:5%  } .container1{width: 90%; font-size:1.1rem; margin-left:5%  }}
+  @media (min-width: 640px) { .menu{font-size:1rem; margin-left:26%
+  }.item1{width: 90%; font-size:1rem; margin-left:5%  } .container1{width: 90%; font-size:1.1rem; margin-left:5%  }}
+@media (min-width:960px) { .menu {font-size:1.2rem; margin-left:26% }
+  .item1{width: 90%; font-size:1.2rem; margin-left:5%  } .container1{width: 90%; font-size:1.2rem; margin-left:5%  }
+}
+@media (min-width:1100px) {.menu {font-size:1.5rem; margin-left:26% }
+.item1{width: 90%; font-size:1.4rem; margin-left:5%  } .container1{ width: 90%; font-size:1.2rem; margin-left:5%  } }
+
